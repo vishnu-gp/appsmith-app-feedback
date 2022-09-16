@@ -79,6 +79,11 @@
                   "children": [
                     {
                       "widgetName": "Text2",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -106,6 +111,9 @@
                         },
                         {
                           "key": "text"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "shouldTruncate": false,
@@ -117,7 +125,7 @@
                       "backgroundColor": "",
                       "textAlign": "LEFT",
                       "widgetId": "atfw3npjhv",
-                      "isVisible": true,
+                      "isVisible": "{{appsmith.user.name != \"anonymousUser\" ? true : false}}",
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
                       "version": 1,
