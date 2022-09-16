@@ -125,7 +125,7 @@
                       "backgroundColor": "",
                       "textAlign": "LEFT",
                       "widgetId": "atfw3npjhv",
-                      "isVisible": "{{appsmith.user.name != \"anonymousUser\" ? true : false}}",
+                      "isVisible": "{{appsmith.user.name != \"anonymousUser\"}}",
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
                       "version": 1,
