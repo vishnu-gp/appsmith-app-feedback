@@ -41,7 +41,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"from\": {{SwitchShareAs.isSwitchedOn ? appsmith.user.name : \"My Awesome collegue\"}},\n\t\"doingWell\": {{InputDoingWell.text}},\n\t\"improve\": {{InputImprove.text}},\n\t\"misc\": {{InputOther.text}}\n}"
+          "data": "{\n\t\"from\": {{SwitchShareAs.isSwitchedOn ? appsmith.user.name : \"My Awesome Collegue\"}},\n\t\"doingWell\": {{InputDoingWell.text}},\n\t\"improve\": {{InputImprove.text}},\n\t\"misc\": {{InputOther.text}}\n}"
         },
         "sheetName": {
           "data": "Sept 2022"
@@ -75,7 +75,7 @@
       "InputDoingWell.text",
       "InputImprove.text",
       "InputOther.text",
-      "SwitchShareAs.isSwitchedOn ? appsmith.user.name : \"My Awesome collegue\""
+      "SwitchShareAs.isSwitchedOn ? appsmith.user.name : \"My Awesome Collegue\""
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -110,7 +110,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
-                      "text": "Hi {{appsmith.user.name}},\n\nIt is so wonderful to work with you here at Appsmith. As you already know I recently completed six months and I'd love to hear your feedback. ",
+                      "text": "Hi {{appsmith.user.name == \"anonymousUser\" ? \"\" : appsmith.user.name}}👋\n\nIt is so wonderful to work with you here at Appsmith. As you already know I recently completed six months and I'd love to hear your feedback. ",
                       "key": "yj37dl3ofd",
                       "isDeprecated": false,
                       "rightColumn": 63,
