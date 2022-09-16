@@ -79,11 +79,7 @@
                   "children": [
                     {
                       "widgetName": "Text2",
-                      "dynamicPropertyPathList": [
-                        {
-                          "key": "isVisible"
-                        }
-                      ],
+                      "dynamicPropertyPathList": [],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -111,9 +107,6 @@
                         },
                         {
                           "key": "text"
-                        },
-                        {
-                          "key": "isVisible"
                         }
                       ],
                       "shouldTruncate": false,
@@ -125,7 +118,7 @@
                       "backgroundColor": "",
                       "textAlign": "LEFT",
                       "widgetId": "atfw3npjhv",
-                      "isVisible": "{{appsmith.user.name != \"anonymousUser\"}}",
+                      "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
                       "version": 1,
@@ -523,6 +516,11 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "SwitchShareAs",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "isVisible"
+                                }
+                              ],
                               "displayName": "Switch",
                               "iconSVG": "/static/media/icon.a3115bc1c224776de2846985c8819f99.svg",
                               "searchTags": [
@@ -544,6 +542,9 @@
                                 },
                                 {
                                   "key": "label"
+                                },
+                                {
+                                  "key": "isVisible"
                                 }
                               ],
                               "labelPosition": "Left",
@@ -553,7 +554,7 @@
                               "rightColumn": 13,
                               "widgetId": "sjafjk2tlr",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "isVisible": true,
+                              "isVisible": "{{appsmith.user.name != \"anonymousUser\"}}",
                               "label": "Share as {{appsmith.user.name}}",
                               "defaultSwitchState": true,
                               "version": 1,
