@@ -219,7 +219,7 @@
                           "children": [
                             {
                               "boxShadow": "none",
-                              "widgetName": "InputImproveCopy",
+                              "widgetName": "InputOther",
                               "displayName": "Input",
                               "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                               "searchTags": [
@@ -260,7 +260,7 @@
                               "widgetId": "yxv6u8bmkd",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "isVisible": true,
-                              "label": "What are the things I should improve?",
+                              "label": "Is there anything else you'd like to share ",
                               "version": 2,
                               "parentId": "5md42wqwt2",
                               "labelAlignment": "left",
@@ -371,6 +371,7 @@
                               "resetFormOnClick": true,
                               "boxShadow": "none",
                               "widgetName": "Button1",
+                              "onClick": "{{saveFeedback.run(() => showAlert('Thank you for your valuable feedback!','success'), () => showAlert('Oops! Something went wrong. Please try again','error'))}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -383,6 +384,11 @@
                               "type": "BUTTON_WIDGET",
                               "hideCard": false,
                               "animateLoading": true,
+                              "dynamicTriggerPathList": [
+                                {
+                                  "key": "onClick"
+                                }
+                              ],
                               "leftColumn": 47,
                               "dynamicBindingPathList": [
                                 {
